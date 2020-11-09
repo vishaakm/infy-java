@@ -3,11 +3,9 @@
     "theia": {
         "frontend": {
             "config": {
-                "applicationName": "Theia Multi-Language Example",
+                "applicationName": "Theia Java Image For Infosys",
                 "preferences": {
-                    "files.enableTrash": false,
-                    "ruby.useLanguageServer": true,
-                    "php.suggest.basic": false
+                    "files.enableTrash": true
                 }
             }
         }
@@ -16,13 +14,11 @@
         "@theia/callhierarchy": "latest",
         "@theia/console": "latest",
         "@theia/core": "latest",
-        "@theia/cpp-debug": "latest",
         "@theia/debug": "latest",
         "@theia/editor": "latest",
         "@theia/editor-preview": "latest",
         "@theia/file-search": "latest",
         "@theia/filesystem": "latest",
-        "@theia/getting-started": "latest",
         "@theia/git": "latest",
         "@theia/keymaps": "latest",
         "@theia/markers": "latest",
@@ -68,7 +64,6 @@
         "vscode-builtin-markdown-language-features": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/markdown-language-features-1.39.1-prel.vsix",
         "vscode-builtin-sql": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/sql-1.39.1-prel.vsix",
         "vscode-builtin-theme-defaults": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/theme-defaults-1.39.1-prel.vsix",
-        "vscode-builtin-icon-theme-seti": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vscode-theme-seti-1.39.1-prel.vsix",
         "vscode-builtin-xml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/xml-1.39.1-prel.vsix",
         "vscode-builtin-yaml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/yaml-1.39.1-prel.vsix",
         "vscode-editorconfig": "https://github.com/theia-ide/editorconfig-vscode/releases/download/v0.14.4/EditorConfig-0.14.4.vsix",

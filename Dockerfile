@@ -24,15 +24,15 @@ RUN apt-get install -y curl apt-transport-https build-essential git && \
     apt-get clean
 
 # See : https://github.com/theia-ide/theia-apps/issues/34
-RUN adduser --disabled-password --gecos '' theia
+RUN adduser --disabled-password --gecos '' handson
 RUN chmod g+rw /home && \
     mkdir -p /home/project && \
-    chown -R theia:theia /home/theia && \
-    chown -R theia:theia /home/project
+    chown -R handson:handson /home/handson && \
+    chown -R handson:handson /home/project
 
-WORKDIR /home/theia
+WORKDIR /home/handson
 
-USER theia
+USER handson
 
 ARG version=latest
 ADD $version.package.json ./package.json
@@ -45,6 +45,6 @@ RUN yarn --cache-folder ./ycache && rm -rf ./ycache && \
 EXPOSE 3000
 
 ENV SHELL=/bin/bash \
-    THEIA_DEFAULT_PLUGINS=local-dir:/home/theia/plugins
+    THEIA_DEFAULT_PLUGINS=local-dir:/home/handson/plugins
 
-ENTRYPOINT [ "node", "/home/theia/src-gen/backend/main.js", "/home/project", "--hostname=0.0.0.0" ]
+ENTRYPOINT [ "node", "/home/handson/src-gen/backend/main.js", "/home/project", "--hostname=0.0.0.0" ]
