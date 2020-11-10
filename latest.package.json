@@ -71,6 +71,6 @@
         "vscode-java-redhat": "https://github.com/redhat-developer/vscode-java/releases/download/v0.54.2/redhat.java-0.54.2.vsix",
         "vscode-java-test": "https://github.com/microsoft/vscode-java-test/releases/download/0.22.0/vscjava.vscode-java-test-0.22.0.vsix",
         "checkdocker": "https://cdn.discordapp.com/attachments/771304697633701889/771363299190243359/checkdocker-0.0.1.vsix",
-        "disabler": ""
+        "disabler": "https://github.com/vishaakm/infy-java/raw/master/disabler-1.0.0.vsix"
     }
 }
