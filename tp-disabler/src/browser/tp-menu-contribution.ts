@@ -5,6 +5,10 @@ const openQuestion: Command = {
     id: 'question-loader.show',
     label: 'Open Question'
 };
+const showReference: Command = {
+    id: 'question-loader.show-reference',
+    label: 'Show Reference'
+};
 const submitProject: Command = {
     id: 'submit.Show',
     label: 'Submit Project'
@@ -20,6 +24,10 @@ export class ClientMenuContribution implements MenuContribution {
         menus.registerMenuAction(subMenuPath, {
             commandId: openQuestion.id,
             order: '0'
+        });
+        menus.registerMenuAction(subMenuPath, {
+            commandId: showReference.id,
+            order: '1'
         });
         menus.registerMenuAction(subMenuPath, {
             commandId: submitProject.id,
