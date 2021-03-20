@@ -18,7 +18,7 @@ const submitProject: Command = {
 export class ClientMenuContribution implements MenuContribution {
     registerMenus(menus: MenuModelRegistry): void {
         const subMenuPath = [...MAIN_MENU_BAR, 'handson-client'];
-        menus.registerSubmenu(subMenuPath, 'HandsOn Client', {
+        menus.registerSubmenu(subMenuPath, 'Exam', {
             order: '8' // that should put the menu right at the end
         });
         menus.registerMenuAction(subMenuPath, {

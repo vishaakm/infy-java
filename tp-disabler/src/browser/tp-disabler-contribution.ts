@@ -22,6 +22,9 @@ export class TpDisablerCommandContribution implements CommandContribution {
         // Download Commands
         registry.unregisterCommand('file.download');
         registry.unregisterCommand('file.copyDownloadLink');
+
+        // Upload Commands
+        registry.unregisterCommand('file.upload');
         
         // Workspace Commands
         registry.unregisterCommand('workspace:close');
