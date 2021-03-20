@@ -1,4 +1,4 @@
-# Infy-java
+# Theia-java
 A custom Docker image containing the theia-ide for Java development
 
 
@@ -8,6 +8,6 @@ A custom Docker image containing the theia-ide for Java development
 
 ## Usage
 ```
-$ docker build --tag vishaakm/infy-java .
-$ docker run -it -p 80:3000 vishaakm/infy-java
+$ docker build --tag vishaakm/theia-java .
+$ docker run -it -p 80:3000 vishaakm/theia-java
 ```
